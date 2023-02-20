@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+body{
+    background-color: #f3f5f8;
+    color: #3d535f;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.home{
+    display: flex;
+    font-size: 25px;
+    color: #3d535f;
+    letter-spacing: 3px;
+    cursor: pointer;
+    text-transform: capitalize;
+    margin: 20px 20px;
+}
+
+.home a{
+    text-decoration: none;
+    color: #3d535f;
+    font-style: 'poppins', sans-serif;
+}
+
+.home :hover {
+    color: #CA226B;
+}
+
+h1{
+    display: flex;
+    font-size: 35px;
+    font-weight: 800;
+    color: #7f00ff;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+section{
+    display: grid;
+    font-size: 20px;
+    place-items: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #3d535f;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    box-shadow: 0 15px 10px rgba(0,0,0,0.4);
+    border-radius: 12px;
+    font-size: 18px;
+  }
+  
+  #myBtn:hover {
+    background-color: #CA226B;
+  }
